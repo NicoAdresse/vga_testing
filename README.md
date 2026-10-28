@@ -24,6 +24,7 @@ You should see: ***'Welcome! Hello, World!'*** printed on the virtual machine.
 
 ```txt
 ├── Cargo.toml
+├── LICENSE
 ├── README.md
 ├── src
 │   ├── main.rs
