@@ -13,7 +13,6 @@ pub extern "C" fn _start() -> ! {
 
     let mut vga = Vga::new(Color::Aqua, Color::Black);
     vga.write_string("Welcome! Hello, World!\n");
-    vga.write_string("Big boom!");
 
     loop {
         unsafe {
